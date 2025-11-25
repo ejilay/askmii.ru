@@ -179,3 +179,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 500);
     });
 });
+
+// Article cover parallax effect
+const articleCover = document.querySelector('.article-cover-image');
+if (articleCover) {
+    const updateParallax = () => {
+        const scrolled = window.pageYOffset;
+        const coverSection = articleCover.parentElement;
+        const coverOffset = coverSection.offsetTop;
+        const coverHeight = coverSection.offsetHeight;
+
+        // Only apply parallax when the cover is in viewport
+        if (scrolled + window.innerHeight > coverOffset && scrolled < coverOffset + coverHeight) {
+            const parallaxSpeed = -0.2;
+            const yPos = (scrolled - coverOffset) * parallaxSpeed;
+            articleCover.style.transform = `translateY(${yPos}px)`;
+        }
+    };
+
+    window.addEventListener('scroll', updateParallax);
+    // Initial call
+    updateParallax();
+}
