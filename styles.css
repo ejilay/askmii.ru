@@ -427,7 +427,9 @@ body {
 /* Portfolio Section */
 .portfolio {
     padding: 120px 40px;
-    background: var(--secondary-bg);
+    background: #ffffff;
+    position: relative;
+    z-index: 10;
 }
 
 .portfolio-container {
