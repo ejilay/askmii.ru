@@ -10,7 +10,7 @@ og-image.jpg      # 1200x630px для главной страницы
 og-kiosk.jpg      # 1200x630px для страницы киосков
 og-voice.jpg      # 1200x630px для страницы голосовых агентов
 favicon.ico       # 16x16, 32x32, 48x48px иконка сайта
-logo.png          # Логотип компании для Schema.org
+logo.jpg          # Логотип компании для Schema.org
 ```
 
 **Рекомендации:**

@@ -57,10 +57,26 @@ body {
 }
 
 .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--text-primary);
     font-size: 22px;
     font-weight: 600;
     letter-spacing: -0.5px;
-    color: var(--text-primary);
+    transition: opacity 0.3s var(--transition);
+}
+
+.nav-logo:hover {
+    opacity: 0.8;
+}
+
+.nav-logo-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
 .nav-menu {
@@ -647,10 +663,39 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+.footer-content {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-company {
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.footer-details {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.footer-details p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer-copyright {
+    font-size: 13px;
+    opacity: 0.8;
 }
 
 .footer-links {
@@ -1013,6 +1058,8 @@ body {
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .case-video {
