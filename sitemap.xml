@@ -2,37 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://askmii.ru/</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-11-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://askmii.ru/kiosk.html</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-11-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://askmii.ru/voice.html</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-11-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://askmii.ru/blog/</loc>
+        <lastmod>2025-11-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://askmii.ru/blog/interactive-avatars.html</loc>
+        <lastmod>2025-11-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://askmii.ru/case-anfisa.html</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-11-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://askmii.ru/case-maria.html</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-11-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://askmii.ru/case-wb.html</loc>
-        <lastmod>2025-01-20</lastmod>
+        <lastmod>2025-11-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
