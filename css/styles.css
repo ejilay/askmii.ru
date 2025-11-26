@@ -286,41 +286,14 @@ body {
     position: relative;
 }
 
-/* Kiosk Avatar Visual */
-.kiosk-visual {
-    background: linear-gradient(135deg, rgba(0, 113, 227, 0.1) 0%, rgba(0, 113, 227, 0.05) 100%);
+/* Kiosk Avatar Image */
+.kiosk-image {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+    object-fit: contain;
     border-radius: 24px;
-    overflow: hidden;
-}
-
-.avatar-circle {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #0071e3 0%, #00a1e3 100%);
-    box-shadow: 0 20px 60px rgba(0, 113, 227, 0.4);
-    position: relative;
-    z-index: 2;
-}
-
-.pulse-ring {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 2px solid rgba(0, 113, 227, 0.3);
-    animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
-}
-
-@keyframes pulse-ring {
-    0% {
-        transform: scale(0.8);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1.3);
-        opacity: 0;
-    }
 }
 
 /* Voice Agent Visual */
