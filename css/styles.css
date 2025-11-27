@@ -965,6 +965,16 @@ body {
     line-height: 1.6;
 }
 
+/* Video hover effect for demo items */
+.demo-item[data-video]:hover .portfolio-thumbnail {
+    opacity: 0;
+}
+
+.demo-item[data-video]:hover .portfolio-video {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.03);
+}
+
 /* Active nav link */
 .nav-menu a.active {
     opacity: 1;

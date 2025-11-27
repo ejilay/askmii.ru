@@ -133,7 +133,7 @@ window.addEventListener('scroll', debouncedScroll);
 
 // Portfolio video hover effect
 document.addEventListener('DOMContentLoaded', () => {
-    const portfolioItems = document.querySelectorAll('.portfolio-item[data-video]');
+    const portfolioItems = document.querySelectorAll('.portfolio-item[data-video], .demo-item[data-video]');
 
     portfolioItems.forEach(item => {
         const video = item.querySelector('.portfolio-video');
